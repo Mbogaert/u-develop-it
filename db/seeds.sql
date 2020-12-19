@@ -57,6 +57,9 @@ VALUES
   ('William', 'Carleton', 'wcarleton@literature.com'),
   ('Gerald', 'Griffin', 'ggriff@lit.net');
 
+INSERT INTO votes (voter_id, candidate_id) 
+VALUES(3,1), (4,2), (5,2), (6,2), (7,2), (8,3), (9,3), (10,1), (11,3), (12,2), (13,1), (14,1), (15,1), (16,1), (17,3), (18,2), (19,2), (20,1);
+
 INSERT INTO candidates (first_name, last_name, party_id, industry_connected)
 VALUES
   ('Ronald', 'Firbank', 1, 1),
